@@ -1,0 +1,59 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: teal;
+   text-align: center;
+   color: antiquewhite;
+   font-size: 16px;
+}
+
+h1 {
+   padding: 1rem;
+}
+
+input {
+   font-size: 1rem;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.form {
+   background-color: darkcyan;
+   margin: 20vh auto 0 auto;
+   width: 40vw;
+   border: solid 1px antiquewhite;
+   border-radius: 1rem;
+}
+
+#change-due {
+   font-size: 1.25rem;
+   margin-top: 5vh;
+}
+
+button {
+   color: antiquewhite;
+   font-size: 1rem;
+   background-color: transparent;
+   border: 0px none;
+   padding: 1em;
+}
+
+span {
+   display: block;
+}
+
+button:hover {
+   text-shadow: 1px 1px 5px antiquewhite;
+}
+
+@media only screen and (max-width: 720px) {
+   .form {
+      width: 90%;
+   }
+}
